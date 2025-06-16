@@ -62,9 +62,6 @@ ul {
     align-items: flex-start;
     /* border-right: 1px solid var(--border-color);  Đường viền phân cách */
     padding-left: 60px; /* Thụt lề trái */
-       
-    margin-top: 0;
-    padding-top: 0;
 }
 
 .sidebar-content {
@@ -505,9 +502,6 @@ footer p {
 
     .sidebar-content {
         align-items: center;
-        text-align: center; /* Căn giữa nội dung sidebar */
-        width: 100%; /* Chiều rộng đầy đủ */
-        
         
     }
 
@@ -663,8 +657,4 @@ body {
     width: 100%;
     height: auto;
     border-radius: 8px;
-}
-
-.cv-card { 
-    background: #fff;
 }

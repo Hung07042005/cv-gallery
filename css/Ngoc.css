@@ -234,6 +234,14 @@ img {
     z-index: 0;
 }
 
+.about-image {
+    flex: 1;
+    min-width: 300px;
+    text-align: center;
+    
+}
+
+
 .hero-section::before { /* Hình tròn to bên trên */
     width: 400px;
     height: 400px;
