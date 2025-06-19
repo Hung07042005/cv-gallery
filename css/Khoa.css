@@ -1,0 +1,147 @@
+/* Tổng quan */
+body {
+  margin: 0;
+  padding: 0;
+  color: #e0e0e0;
+  background: #121212;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Banner, video nền */
+.banner video {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  filter: brightness(0.5);
+  margin: 20px auto;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px #ffcc5b;
+}
+
+/* Menu điều hướng */
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 30px;
+  backdrop-filter: blur(10px);
+}
+
+.navbar ul a {
+  color: #ffcc5b;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.navbar ul a:hover {
+  color: #121212;
+  background: #ffcc5b;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px #ffcc5b;
+}
+
+/* Các Section */
+.section {
+  padding: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+  border-bottom: 1px solid #ffcc5b;
+}
+
+.section h2 {
+  margin-bottom: 20px;
+  color: #ffcc5b;
+  font-size: 24px;
+  position: relative;
+}
+
+.section h2::after {
+  content: "";
+  width: 50px;
+  height: 4px;
+  background: #ffcc5b;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+}
+
+/* Danh sách & ảnh đại diện */
+.section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.section ul li {
+  margin-bottom: 10px;
+  padding: 10px;
+  background: #1a1a1a;
+  border-radius: 10px;
+  line-height: 1.9;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.about-content .avatar {
+  width: 180px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 5px 15px #ffcc5b;
+}
+
+/* Liên hệ chỉ hiển thị icon */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 0;
+  list-style: none;
+  margin-top: 20px;
+}
+
+.social-icons li a {
+  color: #ffcc5b;
+  transition: color 0.3s ease;
+}
+
+.social-icons li a:hover {
+  color: #ffffff;
+}
+
+/* Footer */
+footer p {
+  text-align: center;
+  padding: 20px;
+  color: #ffcc5b;
+  background: #1a1a1a;
+  margin: 0;
+}
+
+/* Tiện ích nhỏ */
+p {
+  line-height: 2;
+}
+.mr-2 {
+  margin-right: 20px;
+}
+.project-img {
+  margin-top: 10px;
+  width: 100%;
+  max-width: 600px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(255, 204, 91, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.project-img:hover {
+  transform: scale(1.02);
+}
