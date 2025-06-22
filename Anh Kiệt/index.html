@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <title>Nguyễn Anh Kiệt - WEB DEVELOPER</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="hero-section">
+        <!-- Animated background particles -->
+        <div class="particles-bg">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+        
+        <!-- Navigation Bar -->
+        <nav class="main-nav animate__animated animate__fadeInDown animate__faster">
+            <div class="nav-container">                
+                <ul class="nav-menu">
+                    <li class="animate__animated animate__fadeInDown animate__delay-1s"><a href="#about" class="nav-link" data-vi="Giới thiệu" data-en="About">About</a></li>
+                    <li class="animate__animated animate__fadeInDown animate__delay-2s"><a href="#experience" class="nav-link" data-vi="Kinh nghiệm" data-en="Experience">Experience</a></li>
+                    <li class="animate__animated animate__fadeInDown animate__delay-3s"><a href="#Certificates" class="nav-link" data-vi="Chứng chỉ" data-en="Certificate">Certificate</a></li>
+                    <li class="animate__animated animate__fadeInDown animate__delay-4s"><a href="#skills" class="nav-link" data-vi="Kỹ năng" data-en="Skills">Skills</a></li>
+                    <li class="animate__animated animate__fadeInDown animate__delay-4s"><a href="#hobbies" class="nav-link" data-vi="Sở thích" data-en="Hobbies">Hobbies</a></li>
+                    <li class="animate__animated animate__fadeInDown animate__delay-5s"><a href="#projects" class="nav-link" data-vi="Dự án" data-en="Projects">Projects</a></li>
+                    <li class="animate__animated animate__fadeInDown animate__delay-6s"><a href="#contact" class="nav-link contact-btn" data-vi="Liên hệ" data-en="Contact">Contact</a></li>
+                </ul>
+                <div class="language-switcher">
+                    <button id="lang-vi" class="lang-btn active">VIE</button>
+                    <button id="lang-en" class="lang-btn">ENG</button>
+                </div>
+                <div class="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Content -->
+        <div class="hero-content">
+            <div class="profile-section animate__animated animate__fadeInUp animate__delay-1s">
+                <div class="profile-image-container animate__animated animate__fadeInLeft animate__delay-2s">
+                    <img src="images/kiet.jpg" alt="Nguyễn Anh Kiệt" class="profile-image">
+                </div>
+                <div class="profile-info animate__animated animate__fadeInRight animate__delay-2s">
+                    <div class="greeting animate__animated animate__fadeInRight animate__delay-3s">
+                        <span style = "color: var(--text-white)" data-vi="Xin chào, tôi là" data-en="Hello, I'm">Hello, I'm</span>
+                    </div>
+                    <h1 class="name-title animate__animated animate__fadeInRight animate__delay-4s">
+                        <span class="first-name">Nguyễn</span>
+                        <span class="last-name">Anh Kiệt</span>
+                    </h1>
+                    <div class="typing-container animate__animated animate__fadeInRight animate__delay-5s">
+                        <span class="typing-text"></span>
+                        <span class="cursor">|</span>
+                    </div>
+                    <p class="subtitle animate__animated animate__fadeInRight animate__delay-6s">
+                        <strong style = "color: var(--text-white)"><span data-vi="Yêu thích lập trình và thiết kế" data-en="Love programming and design">Love programming and design</span></strong>
+                    </p>
+                    <div class="hero-buttons animate__animated animate__fadeInUp animate__delay-7s">
+                        <a href="#contact" class="btn-primary" data-vi="Liên hệ" data-en="Get In Touch">
+                            <span data-vi="Liên hệ" data-en="Get In Touch">Get In Touch</span>
+                        </a>
+                        <a href="#projects" class="btn-secondary" data-vi="Xem dự án" data-en="View My Work">
+                            <span data-vi="Xem dự án" data-en="View My Work">View My Work</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+           
+        </div>
+    </header>
+    <!-- About Section -->
+    <section id="about" class="section-container">
+        <div class="section-header">
+            <h2 class="section-title animate-on-scroll" data-vi="Giới thiệu bản thân" data-en="About Me">About Me</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="about-content">
+            <div class="about-text animate-on-scroll">
+                <div class="about-intro" style="display:flex;align-items:center;gap:1rem;">
+                    <ion-icon name="sparkles-outline" style="font-size:2rem;color:var(--primary-color);"></ion-icon>
+                    <span class="highlight" data-vi="Giới thiệu bản thân" data-en="About Me">About Me</span>
+                </div>
+                <blockquote class="about-quote" data-vi="Tôi là Nguyễn Anh Kiệt - một người có niềm đam mê mãnh liệt dành cho lập trình.Với nền tảng vững chắc từ việc tự học và nghiên cứu tôi tin chắc rằng mình sẽ hoàn thành tốt các công việc được giao." data-en="I’m Nguyễn Anh Kiệt - a person with a strong passion for programming. With a solid foundation from self-study and research, I am confident that I will accomplish the tasks assigned to me well.">
+                  I’m Nguyễn Anh Kiệt - a person with a strong passion for programming. With a solid foundation from self-study and research, I am confident that I will accomplish the tasks assigned to me well.
+                </blockquote>
+
+                <div class="about-intro" style="display:flex;align-items:center;gap:1rem;">
+                    <ion-icon name="sparkles-outline" style="font-size:2rem;color:var(--primary-color);"></ion-icon>
+                    <span class="highlight" data-vi="Mục tiêu nghề nghiệp" data-en="career goal">career goal</span>
+                </div>
+
+                <p data-vi="Với 2 năm kinh nghiệm trong nghề lập trình. Tôi mong muôn được gia nhập vào công ty để có thể áp dụng các kiến thức của mình để xây dựng sản phẩm tốt hơn và mang lại những giá trị hữu ích cho doanh nghiệp. Đặt mục tiêu cho mình sau 2 năm nữa sẽ trở thành senior." data-en="With 2 years of experience in programming, I hope to join the company to apply my knowledge to build better products and bring valuable benefits to the business. I set a goal for myself to become a senior in 2 years.">
+                   With 2 years of experience in programming, I hope to join the company to apply my knowledge to build better products and bring valuable benefits to the business. I set a goal for myself to become a senior in 2 years.
+                </p>
+            </div>
+        </div>
+    </section> 
+    <!-- Work Experience Section -->
+    <section id="experience" class="section-container dark-section">
+        <div class="section-header">
+            <h2 class="section-title animate-on-scroll" data-vi="Kinh nghiệm" data-en="Experience">Experience</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="experience-timeline">
+            <div class="timeline-line"></div>
+            <div class="timeline-item animate-on-scroll" data-date="2024">
+                <div class="timeline-dot"><div class="dot-inner"></div></div>
+                <div class="timeline-content">
+                    <div class="timeline-badge" data-vi="Hiện tại" data-en="Current">Current</div>
+                    <div class="timeline-date" data-vi="09/2023 - Nay" data-en="09/2023 - Present">09/2023 - Present</div>
+                    <h3 data-vi="Lập trình viên Web " data-en="Web Developer">Web Developer</h3>
+                    <p data-vi="Thiết kế và triển khai các dự án web vừa và nhỏ. Chịu trách nhiệm về phần giao diện người dùng và thu thập phản hồi từ khách hàng" data-en="Design and implement small to medium web projects. Responsible for the user interface and collecting feedback from customers."> Design and implement small to medium web projects. Responsible for the user interface and collecting feedback from customers.</p>
+                    <div class="timeline-skills">
+                        <span data-vi="Thiết kế Web" data-en="Web Design">Web Design</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+    <!-- Certificate - Awards -->   
+    <section id="Certificates" class="section-container">
+        <div class="section-header">
+            <h2 class="section-title animate-on-scroll" data-vi="Chứng chỉ - giải thưởng" data-en="Certificate - Award">Certificate - Award</h2>
+            <div class="section-line"></div>
+        </div>
+        
+        <div class="Certificates-container">
+            <!-- Achievements Timeline Section -->
+            <div class="Certificates-timeline animate-on-scroll">
+                <div class="timeline-line"></div>
+                <div class="Certificate-item animate-on-scroll">
+                    <div class="timeline-dot">
+                        <div class="dot-inner"></div>
+                    </div>
+                    <div class="Certificate-content">
+                        <div class="Certificate-badge">Excellence</div>
+                        <div class="Certificate-date">2024-2025</div>
+                        <h3 data-vi="Học lực giỏi 2 năm liền tại UTH" data-en="Excellent academic performance for 2 consecutive years at UTH">Excellent academic performance for 2 consecutive years at UTH</h3>
+                        <h4 data-vi="Đại học giao thông vận tải" data-en="Ho Chi Minh University Of Transport">Ho Chi Minh University Of Transport</h4>
+                        <p data-vi="Chăm chỉ học tập và hoàn thành tốt các nhiệm vụ học tập được giao" data-en="Diligently study and complete the assigned academic tasks well.">Diligently study and complete the assigned academic tasks well.</p>
+                    </div>
+                </div>
+                <div class="Certificate-item animate-on-scroll">
+                    <div class="timeline-dot">
+                        <div class="dot-inner"></div>
+                    </div>
+                    <div class="Certificate-content">
+                        <div class="Certificate-badge">Excellence</div>
+                        <div class="Certificate-date">2022-2023</div>
+                        <h3 data-vi="Học sinh 3 tốt trường THPT Nguyễn Văn trỗi" data-en="Good student of Nguyen Van Troi High School">Good student of Nguyen Van Troi High School</h3>
+                        <h4 data-vi="Trường trung học phổ thông Nguyễn Văn Trỗi" data-en="Nguyễn Văn Trỗi High School">Nguyễn Văn Trỗi High School</h4>
+                        <p data-vi="Đạt danh hiệu 'Học Sinh 3 tốt' của trường THPT Nguyễn Văn Trỗi năm học 2022-2023" data-en="Awarded 'Three-Good Student'at Nguyen Van Troi High School for the school year 2022-2023">Awarded 'Three-Good Student'at Nguyen Van Troi High School for the school year 2022-2023</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Skills Section -->
+    <section id="skills" class="section-container">
+        <div class="section-header">
+            <h2 class="section-title animate-on-scroll" data-vi="Kỹ năng " data-en="Skills">Skills</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="skills-container">
+            <div class="skills-grid">
+                <div class="skill-category animate-on-scroll">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <ion-icon name="terminal-outline"></ion-icon>
+                        </div>
+                        <h3>Programming Languages</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">PHP</span>
+                                <span class="skill-percentage">70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Java</span>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">JavaScript</span>
+                                <span class="skill-percentage">70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">C++</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category animate-on-scroll">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <ion-icon name="settings-outline"></ion-icon>
+                        </div>
+                        <h3>Frameworks</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">NodeJS</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">ReatJS</span>
+                                <span class="skill-percentage">70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="70"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Technology Icons Cloud -->
+            <div class="tech-cloud animate-on-scroll">
+                <div class="tech-item">
+                    <ion-icon name="logo-javascript"></ion-icon>
+                    <span>JavaScript</span>
+                </div>
+                <div class="tech-item">
+                    <ion-icon name="logo-react"></ion-icon>
+                    <span>React</span>
+                </div>
+                <div class="tech-item">
+                    <ion-icon name="logo-nodejs"></ion-icon>
+                    <span>Node.js</span>
+                </div>
+                <div class="tech-item">
+                    <ion-icon name="logo-github"></ion-icon>
+                    <span>Git</span>
+                </div>
+            </div>
+        </div>
+    </section>    
+    <!-- Hobbies Section -->
+    <section id="hobbies" class="section-container dark-section">
+        <div class="section-header">
+            <h2 class="section-title animate-on-scroll" data-vi="Sở thích" data-en="Hobbies">Sở thích</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="hobbies-container">
+            <div class="hobbies-grid">
+
+                <div class="hobby-card animate-on-scroll">
+                    <div class="hobby-icon">
+                        <ion-icon name="library-outline"></ion-icon>
+                    </div>
+                    <div class="hobby-content">
+                        <h3 data-vi="Học tập" data-en="Self-learning">Self-learning</h3>
+                        <p data-vi="Đam mê nghiên cứu các công nghệ mới, tham gia các hoạt động học thuật và cập nhật kiến thức mới." data-en="Passionate about researching new technologies, participating in academic activities, and updating new knowledge.">Passionate about researching new technologies, participating in academic activities, and updating new knowledge.</p>
+                        <div class="hobby-tags">
+                            <span data-vi="Tự học" data-en="Self-learning">Self-learning</span>
+                            <span data-vi="Đổi mới sáng tạo" data-en="Innovation">Innovation</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hobby-card animate-on-scroll">
+                    <div class="hobby-icon">
+                        <ion-icon name="camera-outline"></ion-icon>
+                    </div>
+                    <div class="hobby-content">
+                        <h3 data-vi="Photoshop & Thiết kế" data-en="Photoshop & Design">Photoshop & Design</h3>
+                        <p data-vi="Sáng tạo nội dung hình ảnh bằng sự kết hợp với công nghệ hiện đại để tạo ra sản phẩm thị giác đẹp" data-en="Creating visual content by combining modern technology to produce beautiful visual products.">Creating visual content by combining modern technology to produce beautiful visual products.</p>
+                        <div class="hobby-tags">
+                            <span data-vi="Photoshop">Photoshop</span>
+                            <span data-vi="Nghệ thuật sáng tạo" data-en="Creative Arts">Creative Arts</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hobby-card animate-on-scroll">
+                    <div class="hobby-icon">
+                        <ion-icon name="book-outline"></ion-icon>
+                    </div>
+                    <div class="hobby-content">
+                        <h3 data-vi="Đọc sách & Toán học" data-en="Reading & Mathematics">Reading & Mathematics</h3>
+                        <p data-vi="Yêu thích việc biết thêm nhiều điều mới thông qua đọc sách. Luyện tập hằng ngày khả năng tư duy logic để tính toán giải quyết vấn đề" data-en="I love learning new things through reading books. I practice my logical thinking skills daily to calculate and solve problems.">I love learning new things through reading books. I practice my logical thinking skills daily to calculate and solve problems.</p>
+                        <div class="hobby-tags">
+                            <span data-vi="Toán Học" data-en="Mathematics">Mathematics</span>
+                            <span data-vi="Đọc sách" data-en="Reading">Reading</span>
+                            <span data-vi="Tư duy logic" data-en="logical thinking">logical thinking</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Projects Section -->
+    <section id="projects" class="section-container">
+        <div class="section-header">
+            <h2 class="section-title animate-on-scroll" data-vi="Dự án" data-en="Projects">Projects</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card animate-on-scroll">
+                <div class="project-image">
+                    <img src="images/project.png" alt="WEB CV cá nhân">
+                    <div class="project-overlay">
+                        <div class="overlay-content">
+                            <ion-icon name="eye-outline"></ion-icon>
+                            <span>View Project</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <div class="project-category">WEB Design</div>
+                    <h3>WEB CV cá nhân</h3>
+                    <p>Trang web CV cá nhân dùng để cung cấp các thông tin mà nhà tuyển dụng muốn biết</p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>JavaScript</span>
+                        <span>CSS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Hung07042005/cv-gallery" class="project-link">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                        <a href="https://hung07042005.github.io/cv-gallery/" class="project-link">
+                            <ion-icon name="open-outline"></ion-icon>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+    <!-- Contact Section -->
+    <section id="contact" class="section-container">
+        <div class="section-header">
+            <h2 class="section-title animate-on-scroll" data-vi="Liên hệ" data-en="Get In Touch">Get In Touch</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="contact-container">
+            <div class="contact-content animate-on-scroll">
+                <div class="contact-text">
+                    <h3 data-vi="Cùng nhau tạo nên những điều phi thường " data-en="Together creating extraordinary things">Together creating extraordinary things</h3>
+                    <p data-vi="Tôi luôn sẵn sàng cho những thử thách mới nắm bắt mọi cơ hội" data-en="I'm always ready for new challenges to seize every opportunity.">I'm always ready for new challenges to seize every opportunity.</p>
+                    <p data-vi="Bạn đang có nhu cầu hợp tác hoặc trao đổi về công việc, hãy liên hệ với tôi" data-en="If you are looking to cooperate or exchange about work, please contact me.">If you are looking to cooperate or exchange about work, please contact me.</p>
+                </div>
+                
+                <div class="contact-form">
+                    <form class="form-container">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="text" id="name" required>
+                                <label for="name" data-vi="Họ tên của bạn" data-en="Your Name">Your Name</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" required>
+                                <label for="email" data-vi="Email của bạn" data-en="Your Email">Your Email</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" required>
+                            <label for="subject" data-vi="Chủ đề" data-en="Subject">Subject</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" required></textarea>
+                            <label for="message" data-vi="Nội dung" data-en="Your Message">Your Message</label>
+                        </div>
+                        <button type="submit" class="submit-btn" data-vi="Gửi tin nhắn" data-en="Send Message">
+                            <span data-vi="Gửi tin nhắn" data-en="Send Message">Send Message</span>
+                            <ion-icon name="send-outline"></ion-icon>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="contact-info animate-on-scroll">
+                <div class="contact-methods">
+                    <div class="contact-method">
+                        <div class="method-icon">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+                        <div class="method-content">
+                            <h4 data-vi="Email" data-en="Email">Email</h4>
+                            <p>kietna3699@ut.edu.vn</p>
+                            <a href="mailto:kietna3699@ut.edu.vn" data-vi="Gửi Email" data-en="Send Email">Send Email</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-method">
+                        <div class="method-icon">
+                            <ion-icon name="call-outline"></ion-icon>
+                        </div>
+                        <div class="method-content">
+                            <h4 data-vi="Điện thoại" data-en="Phone">Phone</h4>
+                            <p>+84 777812160</p>
+                            <a href="tel:+84777812160" data-vi="Gọi ngay" data-en="Call Now">Call Now</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-method">
+                        <div class="method-icon">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+                        <div class="method-content">
+                            <h4 data-vi="Địa chỉ" data-en="Location">Location</h4>
+                            <p data-vi="Quận 12, TP. Hồ Chí Minh, Việt Nam" data-en="District 12, Ho Chi Minh City, Vietnam">District 12, Ho Chi Minh City, Vietnam</p>
+                            <a href="#" data-vi="Xem bản đồ" data-en="View Map">View Map</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="social-section">
+                    <h4 data-vi="Kết nối với tôi" data-en="Follow Me">Follow Me</h4>
+                    <div class="social-links">
+                        
+                        <a href="https://github.com/anhkiet7879" target="_blank" class="social-link github">
+                            <ion-icon name="logo-github"></ion-icon>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://www.facebook.com/anh.kiet.nguyen.803692" target="_blank" class="social-link facebook">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                            <span>Facebook</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-text">
+                <p data-vi="&copy; 2025 Nguyễn Anh Kiệt, thiết kế với sự nhiệt huyết và sáng tạo" data-en="&copy; 2025 Nguyen Anh Kiệt designs with enthusiasm and creativity.">&copy; 2025 Nguyễn Anh Kiệt thiết kế với sự nhiệt huyết và sáng tạo</p>
+            </div>            
+            <div class="footer-links">
+                <a href="#about" data-vi="Giới thiệu" data-en="About">Giới thiệu</a>
+                <a href="#experience" data-vi="Kinh nghiệm" data-en="Experience">Kinh nghiệm</a>
+                <a href="#Certificates" data-vi="Chứng chỉ" data-en="Certificate">Chứng chỉ</a>
+                <a href="#skills" data-vi="Kỹ năng" data-en="Skills">Kỹ năng</a>
+                <a href="#hobbies" data-vi="Sở thích" data-en="Hobbies">Sở thích</a>
+                <a href="#projects" data-vi="Dự án" data-en="Projects">Dự án</a>
+                <a href="#contact" data-vi="Liên hệ" data-en="Contact">Liên hệ</a>
+            </div>
+        </div>
+        <div class="back-to-top" id="backToTop">
+            <ion-icon name="chevron-up-outline"></ion-icon>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script> 
+
+<script>
+(function(){
+  emailjs.init('O5QJIJ3EsGCLrufI-'); 
+})();
+document.querySelector('.form-container').addEventListener('submit', function(e) {
+  e.preventDefault();
+  emailjs.sendForm('service_m1oxx8g', 'template_03dr073', this) 
+    .then(function() {
+      alert('Gửi thành công!');
+    }, function(error) {
+      alert('Gửi thất bại: ' + JSON.stringify(error));
+    });
+});
+</script>
+    <script>
+    function setLanguage(lang) {
+        document.querySelectorAll('[data-vi][data-en]').forEach(el => {
+            el.innerHTML = el.getAttribute('data-' + lang);
+        });
+
+        document.getElementById('lang-vi').classList.toggle('active', lang === 'vi');
+        document.getElementById('lang-en').classList.toggle('active', lang === 'en');
+    }
+
+    document.getElementById('lang-vi').onclick = () => setLanguage('vi');
+    document.getElementById('lang-en').onclick = () => setLanguage('en');
+
+    setLanguage('en');
+    </script>
+
+</body>
+</html>
